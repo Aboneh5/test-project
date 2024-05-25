@@ -9,7 +9,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3001/login", {
+      const response = await axios.post("http://test-back-2-wnv8.onrender.com/login", {
         email,
         password,
       });
