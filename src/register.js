@@ -15,7 +15,7 @@ const Register = () => {
 
     const configuration = {
       method: "post",
-      url: "http://localhost:3001/register",
+      url: "https://test-back-2-wnv8.onrender.com/register",
       data: { email, password },
     };
     axios(configuration);
